@@ -1,4 +1,4 @@
-# 🎓 EduRecSys – Hybrid Course Recommendation System
+# EduRecSys – Hybrid Course Recommendation System
 
 EduRecSys is a **hybrid educational recommendation system** designed to simulate
 real-world recommendation pipelines used in online learning platforms.
@@ -15,7 +15,7 @@ model accuracy.
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 This system recommends educational courses based on:
 - User behavior (when available)
@@ -30,7 +30,7 @@ It supports:
 
 ---
 
-## 🧠 Recommendation Strategies
+## Recommendation Strategies
 
 ### 1️⃣ Cold Start Recommendation
 Used when **no user history is available**.
@@ -79,7 +79,7 @@ This balances:
 
 ---
 
-## ⚙️ System Architecture
+## System Architecture
 
 - Heavy similarity models are **lazy-loaded**
 - API starts instantly without blocking
@@ -92,7 +92,7 @@ This ensures:
 
 ---
 
-## 🌐 Language Support
+## Language Support
 
 - Current version supports **English educational content**
 - Arabic support is **planned** and requires:
@@ -104,7 +104,7 @@ The system is **language-agnostic by design** and ready for multilingual expansi
 
 ---
 
-## 🧪 Notebooks (Research & Development)
+## Notebooks (Research & Development)
 
 All experiments and model building are documented through Jupyter notebooks:
 ```text
@@ -121,7 +121,7 @@ notebooks/
 
 ---
 
-## 🌐 API (FastAPI)
+## API (FastAPI)
 
 ### Run the API locally
 ```bash
@@ -132,7 +132,7 @@ Then visit:
 - http://127.0.0.1:8000/docs
 
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 EduRecSys/
@@ -159,7 +159,7 @@ EduRecSys/
 ├── requirements.txt
 ```
 
-## ⚠️ Model Files Note
+## Model Files Note
 
 The file 'content_similarity.pkl' is not included in this repository due to its
 large size.
@@ -169,13 +169,13 @@ similarity matrix following the same interface.
 
 This decision reflects real-world production constraints.
 
-## 🔁 Reproducing Models
+## Reproducing Models
 
 To regenerate the similarity models, run:
 edurecsys-hybrid-recommendation-system.ipynb
 
 
-## 🛠️ Tech Stack
+## Tech Stack
 - Python
 - Pandas, NumPy
 - Scikit-learn
@@ -183,7 +183,7 @@ edurecsys-hybrid-recommendation-system.ipynb
 - Joblib
 
 
-## 🔮 Future Enhancements
+## Future Enhancements
 - Arabic recommendation pipeline
 - Multilingual support
 - Explainable recommendations
